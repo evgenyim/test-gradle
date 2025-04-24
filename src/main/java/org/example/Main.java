@@ -9,6 +9,7 @@ public class Main {
         System.out.printf("Hello and welcome!");
 
         String obsolete = "Obsolete";
+        String obsolete2 = "Obsolete2";
 
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
