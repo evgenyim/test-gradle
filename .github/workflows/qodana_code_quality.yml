@@ -39,4 +39,4 @@ jobs:
           additional-cache-key: 'qodana-2024.3'
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
-          QODANA_PR_SHA: $(git rev-parse HEAD)
+          QODANA_PR_SHA: ""
