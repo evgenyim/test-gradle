@@ -26,5 +26,7 @@ jobs:
           use-annotations: 'false'
           upload-result: 'true'
           use-caches: 'true'
+          primary-cache-key: 'qodana-2024.3-${{ github.ref }}'
+          additional-cache-key: 'qodana-2024.3'
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
