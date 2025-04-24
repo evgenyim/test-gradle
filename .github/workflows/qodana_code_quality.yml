@@ -21,7 +21,10 @@ jobs:
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@v2024.3
         with:
-          args: --ide,QDJVM
+          args: --ide,QDJVM, --fixes-strategy,apply
           pr-mode: 'false'
+          push-fixes: 'pull-request'
+          use-annotations: 'false'
+          upload-result: 'true'
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
