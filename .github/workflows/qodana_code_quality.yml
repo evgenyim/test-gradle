@@ -22,5 +22,6 @@ jobs:
         uses: JetBrains/qodana-action@v2024.3
         with:
           args: --ide,QDJVM
+          pr-mode: 'false'
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
