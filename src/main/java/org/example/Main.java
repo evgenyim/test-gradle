@@ -8,7 +8,6 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!");
 
-        String obsolete = "Obsolete";
         String obsolete2 = "Obsolete2";
 
         for (int i = 1; i <= 5; i++) {
