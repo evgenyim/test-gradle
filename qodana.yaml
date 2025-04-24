@@ -12,6 +12,7 @@ profile:
 include:
   - name: UnusedSymbol
   - name: UnusedVariable
+  - name: unused
 
 #Disable inspections
 #exclude:
