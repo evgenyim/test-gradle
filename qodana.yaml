@@ -9,8 +9,9 @@ profile:
   name: qodana.recommended
 
 #Enable inspections
-#include:
-#  - name: <SomeEnabledInspectionId>
+include:
+  - name: UnusedSymbol
+  - name: UnusedVariable
 
 #Disable inspections
 #exclude:
