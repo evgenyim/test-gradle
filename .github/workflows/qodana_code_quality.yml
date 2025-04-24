@@ -26,8 +26,6 @@ jobs:
       - uses: gradle/actions/setup-gradle@v3.5.0
         with:
           gradle-version: 'wrapper'
-      - name: 'Run'
-        run: ./gradlew assemble
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@v2024.3
         with:
