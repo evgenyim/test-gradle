@@ -1,11 +1,14 @@
 package org.example
 
+import com.sun.org.slf4j.internal.LoggerFactory
+
 class SomeClass {
     companion object {
-        val newString = "New"
+        private val logger = LoggerFactory.getLogger(SomeClass::class.java)
+        private val logger2 = LoggerFactory.getLogger(SomeClass::class.java)
     }
 
     init {
-        println(newString)
+        println(logger2)
     }
 }
